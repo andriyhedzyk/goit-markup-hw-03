@@ -219,6 +219,9 @@ ul {
 }
 .team {
   background-color: var(--button-backround);
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .team .position {
   color: var(--text-color);
