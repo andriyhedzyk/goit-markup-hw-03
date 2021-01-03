@@ -21,6 +21,11 @@ body {
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Header */
 
@@ -61,6 +66,14 @@ body {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
+}
+.contacts-container {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  
 }
 
 ul {
@@ -134,8 +147,8 @@ ul {
 
 /* Hero */
 .hero {
-  width: 1600px;
-  height: 600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 94px;
@@ -146,7 +159,6 @@ ul {
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
-  padding-top: 200px;
   color: var(--backround-color);
   font-style: 400;
   font-weight: 900;
@@ -198,6 +210,7 @@ ul {
   padding-bottom: 50px;
   padding-top: 94px;
   margin-bottom: 0px;
+  margin-top: 0px;
 
   color: var(--primary-text-color);
   font-weight: 700;
@@ -219,7 +232,6 @@ ul {
 }
 .team {
   background-color: var(--button-backround);
-  width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -262,20 +274,21 @@ ul {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
-  height: 252px;
+  padding-top: 60px;
   padding-right: 15px;
+  padding-bottom: 60px;
   padding-left: 15px;
 }
-.footer-box {
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 60px;
-  width: 1170px;
-}
+
 .contact-box {
   width: 231px;
   margin-top: 20px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .studio-logo-footer {
@@ -344,8 +357,9 @@ ul {
 
 /* PROJECTS */
 .projects {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  border-top : 1px solid #ECECEC;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .projects h2 {
   color: var(--primary-text-color);
@@ -353,8 +367,8 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  margin: 0;
+  padding-bottom: 4px;
 }
 .projects p {
   color: var(--text-color);
@@ -401,3 +415,14 @@ ul {
 .portfolio-elements:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+
+.portfolio-elements-link {
+width: 0;
+height: 0;
+}
+
+.title-box {
+  padding: 20px 24px;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
