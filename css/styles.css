@@ -41,7 +41,6 @@ img {
   width: 1600px;
   padding-right: 15px;
   padding-left: 15px;
-
 }
 .logo {
   display: flex;
@@ -72,7 +71,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  
 }
 
 ul {
@@ -146,6 +144,7 @@ ul {
 
 /* Hero */
 .hero {
+  background-image: url(../hero-img);
   padding-bottom: 200px;
   padding-top: 200px;
   margin-right: auto;
@@ -157,7 +156,6 @@ ul {
   padding-right: 15px;
   padding-left: 15px;
   width: 1600px;
-
 }
 .hero-title {
   margin-top: 0px;
@@ -175,7 +173,6 @@ ul {
 
 /* Feature */
 .features {
-  
 }
 
 .features-title {
@@ -206,9 +203,9 @@ ul {
 }
 .features-list .item:nth-child(4n) {
   margin-right: 0;
-} 
+}
 
-/* Work and Team*/  
+/* Work and Team*/
 
 .work {
   padding: 94px 15px 94px 15px;
@@ -307,7 +304,6 @@ ul {
 
 .studio-logo-footer {
   color: var(--backround-color);
-
 }
 
 .address {
@@ -371,7 +367,7 @@ ul {
 
 /* PROJECTS */
 .projects {
-  border-top : 1px solid #ECECEC;
+  border-top: 1px solid #ececec;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -409,7 +405,6 @@ ul {
   margin-right: 0;
 }
 
-
 .portfolio {
   width: 1200px;
   display: flex;
@@ -431,13 +426,13 @@ ul {
 }
 
 .portfolio-elements-link {
-width: 0;
-height: 0;
+  width: 0;
+  height: 0;
 }
 
 .title-box {
   padding: 20px 24px;
-  border-right: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
-  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
