@@ -38,7 +38,7 @@ img {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1600px;
   padding-right: 15px;
   padding-left: 15px;
 
@@ -71,7 +71,6 @@ img {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
   display: flex;
   
 }
@@ -154,7 +153,11 @@ ul {
   margin-bottom: 94px;
   background-color: #2f303a;
   text-align: center;
-  outline: 1px solid red;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1600px;
+
 }
 .hero-title {
   margin-top: 0px;
@@ -171,6 +174,10 @@ ul {
 }
 
 /* Feature */
+.features {
+  
+}
+
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -203,12 +210,15 @@ ul {
 
 /* Work and Team*/  
 
+.work {
+  padding: 94px 15px 94px 15px;
+}
+
 .work-title,
 .team-title {
   text-align: center;
   letter-spacing: 0.03em;
   padding-bottom: 50px;
-  padding-top: 94px;
   margin-bottom: 0px;
   margin-top: 0px;
 
@@ -219,7 +229,7 @@ ul {
 }
 .work-list {
   display: flex;
-  width: 1170px;
+  width: 1200px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -234,6 +244,9 @@ ul {
   background-color: var(--button-backround);
   margin-right: auto;
   margin-left: auto;
+  align-items: center;
+  width: 1600px;
+  padding: 94px 15px 94px 15px;
 }
 .team .position {
   color: var(--text-color);
@@ -242,7 +255,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .team-member {
   color: var(--primary-text-color);
@@ -271,6 +284,7 @@ ul {
 
 .footer {
   background-color: #2f303a;
+  width: 1600px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -309,7 +323,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-top: 9px;
+  margin-top: 9px;
 }
 /* Button */
 .button {
@@ -397,7 +411,7 @@ ul {
 
 
 .portfolio {
-  width: 1170px;
+  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
@@ -426,3 +440,4 @@ height: 0;
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
+}
