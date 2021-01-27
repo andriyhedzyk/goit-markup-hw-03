@@ -21,11 +21,6 @@ body {
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
 }
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 /* Header */
 
@@ -38,9 +33,10 @@ img {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
+
 }
 .logo {
   display: flex;
@@ -65,12 +61,6 @@ img {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-}
-.contacts-container {
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
 }
 
 ul {
@@ -144,22 +134,19 @@ ul {
 
 /* Hero */
 .hero {
-  background-image: url(../hero-img);
-  padding-bottom: 200px;
-  padding-top: 200px;
+  width: 1600px;
+  height: 600px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 94px;
   background-color: #2f303a;
   text-align: center;
-  align-items: center;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 1600px;
+  outline: 1px solid red;
 }
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
+  padding-top: 200px;
   color: var(--backround-color);
   font-style: 400;
   font-weight: 900;
@@ -172,9 +159,6 @@ ul {
 }
 
 /* Feature */
-.features {
-}
-
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -203,21 +187,17 @@ ul {
 }
 .features-list .item:nth-child(4n) {
   margin-right: 0;
-}
+} 
 
-/* Work and Team*/
-
-.work {
-  padding: 94px 15px 94px 15px;
-}
+/* Work and Team*/  
 
 .work-title,
 .team-title {
   text-align: center;
   letter-spacing: 0.03em;
   padding-bottom: 50px;
+  padding-top: 94px;
   margin-bottom: 0px;
-  margin-top: 0px;
 
   color: var(--primary-text-color);
   font-weight: 700;
@@ -226,7 +206,7 @@ ul {
 }
 .work-list {
   display: flex;
-  width: 1200px;
+  width: 1170px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -239,20 +219,12 @@ ul {
 }
 .team {
   background-color: var(--button-backround);
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  width: 1600px;
-  padding: 94px 15px 94px 15px;
 }
 .team .position {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 0px;
 }
 .team-member {
   color: var(--primary-text-color);
@@ -261,9 +233,6 @@ ul {
   line-height: 1.18;
   /* identical to box height */
   letter-spacing: 0.03em;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 0px;
 }
 .team-list {
   display: flex;
@@ -281,29 +250,28 @@ ul {
 
 .footer {
   background-color: #2f303a;
-  width: 1600px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
+  width: 1600px;
+  height: 252px;
   padding-right: 15px;
-  padding-bottom: 60px;
   padding-left: 15px;
 }
-
+.footer-box {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  width: 1170px;
+}
 .contact-box {
   width: 231px;
   margin-top: 20px;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .studio-logo-footer {
   color: var(--backround-color);
+
 }
 
 .address {
@@ -319,7 +287,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 9px;
+  padding-top: 9px;
 }
 /* Button */
 .button {
@@ -367,9 +335,8 @@ ul {
 
 /* PROJECTS */
 .projects {
-  border-top: 1px solid #ececec;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 .projects h2 {
   color: var(--primary-text-color);
@@ -377,8 +344,8 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 0;
-  padding-bottom: 4px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .projects p {
   color: var(--text-color);
@@ -405,8 +372,9 @@ ul {
   margin-right: 0;
 }
 
+
 .portfolio {
-  width: 1200px;
+  width: 1170px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
@@ -425,14 +393,6 @@ ul {
   margin-bottom: 0px;
 }
 
-.portfolio-elements-link {
-  width: 0;
-  height: 0;
-}
+.content {
 
-.title-box {
-  padding: 20px 24px;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
 }
