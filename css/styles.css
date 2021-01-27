@@ -21,6 +21,11 @@ body {
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* Header */
 
@@ -33,10 +38,9 @@ body {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1600px;
   padding-right: 15px;
   padding-left: 15px;
-
 }
 .logo {
   display: flex;
@@ -59,8 +63,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-right: 15px;
   padding-left: 15px;
+}
+.contacts-container {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 ul {
@@ -134,14 +146,18 @@ ul {
 
 /* Hero */
 .hero {
-  width: 1600px;
+  background-image: url(../hero-img);
+  background-color: #2f303a;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
   height: 600px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 94px;
-  background-color: #2f303a;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 0px;
   text-align: center;
-  outline: 1px solid red;
 }
 .hero-title {
   margin-top: 0px;
@@ -159,6 +175,7 @@ ul {
 }
 
 /* Feature */
+
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -187,17 +204,28 @@ ul {
 }
 .features-list .item:nth-child(4n) {
   margin-right: 0;
-} 
+}
 
-/* Work and Team*/  
+/* Work and Team*/
+
+.work-container {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-top: 0px;
+  padding-bottom: 94px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
 .work-title,
 .team-title {
   text-align: center;
   letter-spacing: 0.03em;
   padding-bottom: 50px;
-  padding-top: 94px;
   margin-bottom: 0px;
+  margin-top: 0px;
 
   color: var(--primary-text-color);
   font-weight: 700;
@@ -218,8 +246,14 @@ ul {
   margin-right: 0;
 }
 .team {
-  background-color: var(--button-backround);
-}
+ background-color: var(--button-backround);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  padding-right: 15px;
+  padding-left: 15px;
+}  
 .team .position {
   color: var(--text-color);
   font-size: 16px;
@@ -233,6 +267,7 @@ ul {
   line-height: 1.18;
   /* identical to box height */
   letter-spacing: 0.03em;
+  
 }
 .team-list {
   display: flex;
@@ -247,31 +282,37 @@ ul {
 }
 
 /* Footer */
-
-.footer {
-  background-color: #2f303a;
-  align-items: center;
+.footer-container {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
-  height: 252px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
 }
-.footer-box {
-  margin-right: auto;
+.footer {
+   background-color: #2f303a;
+  align-items: center;
   margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  height: 252px;
+  padding-right: 15px;
+  padding-left: 15px;
   padding-top: 60px;
-  width: 1170px;
+  padding-bottom: 60px;
+}
+.footer-box {
+  margin-right: 70px;
 }
 .contact-box {
   width: 231px;
   margin-top: 20px;
+  margin-right: 0;
 }
 
 .studio-logo-footer {
   color: var(--backround-color);
-
 }
 
 .address {
@@ -287,7 +328,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  padding-top: 9px;
+  margin-top: 9px;
 }
 /* Button */
 .button {
@@ -335,8 +376,7 @@ ul {
 
 /* PROJECTS */
 .projects {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  border-top: 1px solid #ececec;
 }
 .projects h2 {
   color: var(--primary-text-color);
@@ -344,8 +384,8 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  margin: 0;
+  padding-bottom: 4px;
 }
 .projects p {
   color: var(--text-color);
@@ -372,9 +412,8 @@ ul {
   margin-right: 0;
 }
 
-
 .portfolio {
-  width: 1170px;
+  width: 1200px;
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
@@ -393,6 +432,14 @@ ul {
   margin-bottom: 0px;
 }
 
-.content {
+.portfolio-elements-link {
+  width: 0;
+  height: 0;
+}
 
+.title-box {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
