@@ -39,6 +39,7 @@ img {
   display: flex;
   max-width: 1600px;
   align-items: center;
+  
   margin-left: auto;
   margin-right: auto;
 
@@ -64,8 +65,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -152,7 +151,8 @@ ul {
   background-color: #2f303a;
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0px;
@@ -161,7 +161,6 @@ ul {
 .hero-title {
   margin-top: 0px;
   margin-bottom: 30px;
-  padding-top: 200px;
   color: var(--backround-color);
   font-style: 400;
   font-weight: 900;
@@ -174,7 +173,10 @@ ul {
 }
 
 /* Feature */
-
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .features-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -206,14 +208,15 @@ ul {
 }
 
 /* Work and Team*/
-
+.work {
+   padding-bottom: 94px;
+}
 .work-container {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-top: 0px;
-  padding-bottom: 94px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -245,8 +248,10 @@ ul {
   margin-right: 0;
 }
 .team {
- background-color: var(--button-backround);
+  background-color: var(--button-backround);
   align-items: center;
+  padding-bottom: 94px;
+  padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
 }  
@@ -386,6 +391,8 @@ ul {
 
 /* PROJECTS */
 .projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
   border-top: 1px solid #ececec;
 }
 .projects h2 {
